@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
 <style type="text/css">
@@ -209,69 +206,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -279,16 +213,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -330,13 +254,28 @@ div.tocify {
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#a-tutorial">A tutorial</a></li>
+<li><a href="#install-venmo">Install Venmo</a></li>
+<li><a href="#setting-up-your-account">Setting up your account</a></li>
+<li><a href="#friends-and-anonymity">Friends and anonymity</a>
+<ul>
+<li><a href="#basic-privacy">Basic privacy</a></li>
+<li><a href="#friends-privacy">Friends privacy</a></li>
+<li><a href="#past-transactions">Past transactions</a></li>
+</ul></li>
+<li><a href="#payment-methods">Payment methods</a></li>
+<li><a href="#donate-funds">Donate funds</a></li>
+</ul>
+</div>
 
-<div id="a-tutorial" class="section level1" number="1">
-<h1 number="1"><span class="header-section-number">1</span> A tutorial</h1>
+<div id="a-tutorial" class="section level1">
+<h1>A tutorial</h1>
 <p>Like any bank account, Venmo allows you to send, and receive, funds. Also like any bank account a fair amount of setup is required! There are several screens to follow to achieve anonymity in the sending, and receiving, of donations. Here goes a tutorial to walk us through the steps to achieve anonymity and connection to your funds. The actual donating is very simple once everything in your Venmo account is set up. If you have Venmo already installed, and set up for anonymity, just jump ahead to the very last section of this tutorial: Donate funds. Thanks!</p>
 </div>
-<div id="install-venmo" class="section level1" number="2">
-<h1 number="2"><span class="header-section-number">2</span> Install Venmo</h1>
+<div id="install-venmo" class="section level1">
+<h1>Install Venmo</h1>
 <ol style="list-style-type: decimal">
 <li>Find your applications store on your iPhone screen. It is the A in a blue button.</li>
 </ol>
@@ -368,8 +307,8 @@ div.tocify {
 <img src="5-venmo-start.PNG" style="width:20.0%" />
 </center>
 </div>
-<div id="setting-up-your-account" class="section level1" number="3">
-<h1 number="3"><span class="header-section-number">3</span> Setting up your account</h1>
+<div id="setting-up-your-account" class="section level1">
+<h1>Setting up your account</h1>
 <ol start="6" style="list-style-type: decimal">
 <li>Immediately a verification process begins. Type your iPhone number in to get a 4 digit verification number in your text.</li>
 </ol>
@@ -401,10 +340,10 @@ div.tocify {
 <img src="10-legal.PNG" style="width:20.0%" />
 </center>
 </div>
-<div id="friends-and-anonymity" class="section level1" number="4">
-<h1 number="4"><span class="header-section-number">4</span> Friends and anonymity</h1>
-<div id="basic-privacy" class="section level2" number="4.1">
-<h2 number="4.1"><span class="header-section-number">4.1</span> Basic privacy</h2>
+<div id="friends-and-anonymity" class="section level1">
+<h1>Friends and anonymity</h1>
+<div id="basic-privacy" class="section level2">
+<h2>Basic privacy</h2>
 <ol start="11" style="list-style-type: decimal">
 <li>We can skip contact for friends for now without any loss of function.</li>
 </ol>
@@ -437,8 +376,8 @@ div.tocify {
 </center>
 <p>Another category to go if you want to be anonymous across friends, as we usually do.</p>
 </div>
-<div id="friends-privacy" class="section level2" number="4.2">
-<h2 number="4.2"><span class="header-section-number">4.2</span> Friends privacy</h2>
+<div id="friends-privacy" class="section level2">
+<h2>Friends privacy</h2>
 <ol start="16" style="list-style-type: decimal">
 <li>Go back to settings (click little blue person icon at the bottom right). Click on Friends List this time.</li>
 </ol>
@@ -453,8 +392,8 @@ div.tocify {
 </center>
 <p>And yet another category regarding who can see our transactions is next.</p>
 </div>
-<div id="past-transactions" class="section level2" number="4.3">
-<h2 number="4.3"><span class="header-section-number">4.3</span> Past transactions</h2>
+<div id="past-transactions" class="section level2">
+<h2>Past transactions</h2>
 <ol start="18" style="list-style-type: decimal">
 <li>In Settings (click little blue person icon at the bottom right or just click &lt; at top left) click on Past Transactions next. You will see this screen.</li>
 </ol>
@@ -469,8 +408,8 @@ div.tocify {
 </center>
 </div>
 </div>
-<div id="payment-methods" class="section level1" number="5">
-<h1 number="5"><span class="header-section-number">5</span> Payment methods</h1>
+<div id="payment-methods" class="section level1">
+<h1>Payment methods</h1>
 <p>With privacy settings we can maintain anonymity. Your last setup step is to connect with your bank. Although not shown, similar steps will connect Venmo with a credit card.</p>
 <ol start="20" style="list-style-type: decimal">
 <li>Return to Settings (you can click &lt; at the top left), and click on Payment Methods where you can Add (a) Bank.</li>
@@ -504,8 +443,8 @@ div.tocify {
 </center>
 <p>Finally, you have reached your last steps in this process. You can now donate some money to your group.</p>
 </div>
-<div id="donate-funds" class="section level1" number="6">
-<h1 number="6"><span class="header-section-number">6</span> Donate funds</h1>
+<div id="donate-funds" class="section level1">
+<h1>Donate funds</h1>
 <ol start="25" style="list-style-type: decimal">
 <li>Getting Started! Just click on the button.</li>
 </ol>
@@ -531,8 +470,6 @@ div.tocify {
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -565,35 +502,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
