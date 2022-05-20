@@ -1,0 +1,214 @@
+---
+title: "Contributing with Venmo on iPhone"
+output: 
+  html_document:
+    toc: true # table of content true
+    toc_depth: 3  # upto three depths of headings (specified by #, # and ##)
+    #number_sections: true  # if you want number sections at each table header
+    theme: united  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
+    #toc_float: true
+---
+
+# A tutorial
+
+Like any bank account, Venmo allows you to send, and receive, funds. Also like any bank account a fair amount of setup is required! There are several screens to follow to achieve anonymity in the sending, and receiving, of contributions. Here goes a tutorial to walk us through the steps to achieve anonymity and connection to your funds. Contributing is very simple once everything in your Venmo account is set up. If you have Venmo already installed, and set up for anonymity, just jump ahead to the very last section of this tutorial: Contribute funds. Thanks!
+
+# Install Venmo
+
+1. Find your **applications store on your iPhone screen**. It is the **A in a blue button.**
+
+<center>
+![](1-app-screen.PNG){ width=20% }
+</center>
+
+2. Search for the Venmo app next. 
+
+<center>
+![](2-app-search.PNG){ width=20% }
+</center>
+
+3. Several bank and/or Venmo apps might appear. You will only need **the base Venmo app**. Choose this one.
+
+<center>
+![](3-venmo-search.PNG){ width=20% }
+</center>
+
+4. If you had already installed Venmo before, like here, you will see a cloud icon, otherwise, a Get icon appears. Click this.
+
+<center>
+![](4-venmo-get.PNG){ width=20% }
+</center>
+
+
+5. Start up Venmo. Click Personal to get started. Sign up.
+
+<center>
+![](5-venmo-start.PNG){ width=20% }
+</center>
+
+
+# Setting up your account
+
+6. Immediately a verification process begins. Type your iPhone number in to get a 4 digit verification number in your text.
+
+<center>
+![](6-venmo-verify.PNG){ width=20% }
+</center>
+
+7. Enter the verification number next.
+
+<center>
+![](7-verify-number.PNG){ width=20% }
+</center>
+
+8. This is like any bank. Further information will be required.
+
+<center>
+![](8-account-info.PNG){ width=20% }
+</center>
+
+9. Agree to the terms to continue.
+
+<center>
+![](9-account-agree.PNG){ width=20% }
+</center>
+
+10. Then there's legal after all of this.
+
+<center>
+![](10-legal.PNG){ width=20% }
+</center>
+
+# Friends and anonymity
+
+## Basic privacy
+
+11. We can skip contact for friends for now without any loss of function.
+
+<center>
+![](11-skip-friends.PNG){ width=20% }
+</center>
+
+12. Set everyting to Private to begin to be anonymous. This is **not** the only setting you need to configure for anonymmity.
+
+<center>
+![](12-set-private-1.PNG){ width=20% }
+</center>
+
+13. Find Settings by clicking the (very small, blue) people icon on the bottom right.
+
+<center>
+![](13-find-settings.PNG){ width=20% }
+</center>
+
+14. In Settings click on Privacy.
+
+<center>
+![](14-settings-privacy.PNG){ width=20% }
+</center>
+
+15. In Privacy click on Private (again).
+
+<center>
+![](15-settings-private.PNG){ width=20% }
+</center>
+
+Another category to go if you want to be anonymous across friends, as we usually do.
+
+## Friends privacy
+
+16. Go back to settings (click little blue person icon at the bottom right). Click on Friends List this time.
+
+<center>
+![](16-settings-friends-list.PNG){ width=20% }
+</center>
+
+17. Set Friends List to Private.
+
+<center>
+![](17-settings-friends-list-private.PNG){ width=20% }
+</center>
+
+And yet another category regarding who can see our transactions is next.
+
+## Past transactions
+
+18. In Settings (click little blue person icon at the bottom right or just click < at top left) click on Past Transactions next. You will see this screen.
+
+<center>
+![](18-past-transactions.PNG){ width=20% }
+</center>
+
+19. Make Past Transactions **private**. If you do not, the fact that you contributed will be seen by all in the group.
+
+<center>
+![](19-past-transactions-private.PNG){ width=20% }
+</center>
+
+# Payment methods
+
+With privacy settings we can maintain anonymity. Your last setup step is to connect with your bank. Although not shown, similar steps will connect Venmo with a credit card. [Please click here to access Venmo for further information on adding credit cards and associated fees.](https://help.venmo.com/hc/en-us/articles/210413677-Adding-a-Credit-or-Debit-Card)
+
+20. Return to Settings (you can click < at the top left), and click on Payment Methods where you can Add (a) Bank.
+
+<center>
+![](20-payment-methods.PNG){ width=20% }
+</center>
+
+21. Click on Add Bank.
+
+<center>
+![](21-add-bank.PNG){ width=20% }
+</center>
+
+22. Now Venmo will reach out to verify your bank using the Plaid service.
+
+<center>
+![](22-bank-verification.PNG){ width=20% }
+</center>
+
+23. Venmo will offer several banks to choose from, for example Chase. Follow the directions (they might be different for different banks). You will be asked to log into your bank, or otherwise provide account information. The Venmo-Plaid-Bank process will eventually connect Venmo with your bank, and your funds. Venmo uses a similar process for credit cards.
+
+<center>
+![](23-select-bank.PNG){ width=20% }
+</center>
+
+24. If Venmo can verify all of your bank (or credit card) information you will reach this screen. Just click on the Pay or Request button to begin to contribute.
+
+<center>
+![](24-lower-left.PNG){ width=20% }
+</center>
+
+Finally, you have reached your last steps in this process. You can now contribute funds to your group.
+
+# Contribute funds
+
+25. Getting Started! Just click on the button.
+
+<center>
+![](25-getting-started.PNG){ width=20% }
+</center>
+
+26. Type 5164274990 and an amount in the top field. Type Basket in the description field. Emojis will more than likely appear. You can turn these off in Settings.
+
+<center>
+![](26-enter-number.PNG){ width=20% }
+</center>
+
+<center>
+![](27-pay-basket.PNG){ width=20% }
+</center>
+
+27. Your transaction will appear (if successful). Names are blotted out here to protect anonymity.
+
+<center>
+![](28-finished.PNG){ width=20% }
+</center>
+
+
+
+
+
+
+
