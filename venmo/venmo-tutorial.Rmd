@@ -10,6 +10,14 @@ output:
     #toc_float: true
 ---
 
+<br>
+<center>
+<h3 style='color:blue'>
+[Return to 7th Tradition](https://newday5am.github.io/site/7th-tradition.html)
+</h3>
+</center>
+<br>
+
 # A tutorial
 
 Like any bank account, Venmo allows you to send, and receive, funds. Also like any bank account a fair amount of setup is required! There are several screens to follow to achieve anonymity in the sending, and receiving, of contributions. Here goes a tutorial to walk us through the steps to achieve anonymity and connection to your funds. Contributing is very simple once everything in your Venmo account is set up. If you have Venmo already installed, and set up for anonymity, just jump ahead to the very last section of this tutorial: Contribute funds. Thanks!
@@ -206,7 +214,13 @@ Finally, you have reached your last steps in this process. You can now contribut
 ![](28-finished.PNG){ width=20% }
 </center>
 
-
+<br>
+<center>
+<h3>
+[Return to 7th Tradition](https://newday5am.github.io/site/7th-tradition.html)
+</h3>
+</center>
+<br>
 
 
 
