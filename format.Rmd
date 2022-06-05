@@ -1,0 +1,270 @@
+---
+title: "New Day 5 AM Meeting Format"
+output: 
+  html_document:
+    toc: true # table of content true
+    toc_depth: 3  # upto three depths of headings (specified by #, # and ##)
+    #number_sections: true  # if you want number sections at each table header
+    theme: united  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
+    #toc_float: true
+---
+
+# 5am New Day Al-Anon Family Group
+
+This page contains the full text of the 5am New Day Meeting Format, January 2021 (revised 2022-06-01)
+
+<center></h5>
+[You may also download a copy of the current meeting format here.](https://newday5am.github.io/site/format/5am%20meeting%20format%206-1-2022.pdf)
+</center></h5><br><br>
+
+<center>
+<h1 style="color: 99000FF">
+5am New Day Al-Anon Family Group
+</h1>
+<h5>
+Meeting Format, January 2021 (revised 2022-05-01)
+</h5>
+</center><br>
+
+## (1) OPENING THE MEETING
+
+-	“Welcome to the 5am New Day Al-Anon Family Group meeting.  My name is _______, a grateful member of Al-Anon and your chairperson for this meeting.”
+
+-	“Will all who care to, please join me in a moment of silence, followed by the Serenity Prayer.  Please press \*1 to unmute.”
+
+
+|“**The Serenity Prayer:**|
+|:---:|
+|God grant me the serenity|
+|To accept the things I cannot change|
+|Courage to change the things I can|
+|And wisdom to know the difference.”|
+
+```{r, eval=FALSE, echo=FALSE}
+library(tidyverse)
+xx <- “The Serenity Prayer"
+text <- c( "God grant me the serenity",
+   "To accept the things I cannot change",
+   "Courage to change the things I can",
+   "And wisdom to know the difference"
+   )
+prayer <- tibble(
+  text = text
+)
+prayer
+```
+
+## (2) READINGS 
+
+-	“May I please have 3 volunteers to read…” 
+
+a.	The WELCOME (found in HOW AL-ANON WORKS page 8, or in the Al-Anon/Alateen Service Manual page 11). 
+
+b.	The TWELVE STEPS with the introductory paragraph (found in the back of all 3 meditation books).
+
+c.	THE TRADITION AND CONCEPT OF THE MONTH, including the introductory paragraphs for each (found in the back of all Three Meditation Books).
+
+-	(Thank the readers for their service.)
+
+## (3) PHONE ETIQUETTE
+
+- “We ask members to use the \*1 keys to mute and please do not use a speaker phone for sharing or we will all hear an echo. Star (\*) by itself will give you a menu of all available options. If your connection is poor, simply hang up and dial-in again.”
+  
+## (4) INTRODUCTIONS: 
+
+(It is the chairperson’s choice to greet each member individually or feel free to wait until everyone is finished and greet the group as a whole.)
+ 
+a.	“Let’s go around the globe and INTRODUCE ourselves. Please press \*1 to unmute.  I’ll start… Hi,  I’m  ________  from  ________.”
+
+b.	“Are there any NEWCOMERS on the line today?  Please press *1 and introduce yourself with your first name, if you would like to, so that we may greet and welcome you.” 
+
+c.	“WELCOME all newcomers.  It is suggested that you try at least six meetings before deciding whether or not Al-Anon is for you.” 
+
+d.	The email address for an auto-reply copy of this format is: <5amNewDay7@gmail.com>
+
+## (5)  MEETING TOPIC:
+
+-	"At this meeting, we read today’s date from our three Daily Readers. Through these readings and sharings, it is our hope that the understanding, love and peace of the program will grow in us one day at a time."
+
+-	"Today’s date is ________.  Can I please have 3 volunteers to read today’s date from One Day at a Time, Courage to Change, and Hope for Today?"
+
+(You can direct the 3 readers to read one right after another, with each staying muted (\*1) until it’s their turn to read.)
+
+## (6) CHAIRPERSON READS THE ANONYMITY STATEMENT: 
+
+a.	“At this meeting, we only quote from Al-Anon conference-approved literature. Please keep the focus on our Al-Anon program, our Steps, Traditions and Concepts of Service. Whatever you hear, and whomever you see, please let it stay here.”
+
+b.	“Members are encouraged to take note of anyone’s name from whom they might want to request a phone number.”
+
+c.	“Sharing will continue until 6:00. Phone number exchanges will take place following the last share.”
+
+d.	"All are encouraged to share because participation is the key to harmony.”
+
+TIMER:
+-	“Could we please have a spiritual time keeper to come in and gently say “time” or “gentle time” at 3 minutes?” 
+
+-	“The floor is now open for sharing on our readings or whatever is in your heart. Who would like to share first?”  (It is ok to leave this open to save time.)
+ 
+## (7)  TELEPHONE NUMBERS (at 6:00 am)
+
+-	“Would anyone like a telephone number or leave their contact information for newcomers?”  (Chairperson facilitates the exchanging of telephone numbers until there are no more requests.)
+
+## (8)  ANNOUNCEMENTS 
+
+a.	“Would anyone like the phone number to use if this line is not functioning?” (if asked: 605-313-4819, pin code 827930#, (you will come in unmuted and will need to press *6 to mute)
+
+b.	“Information on how to access the meeting schedule?” ![](www.al-anon.org)  can click on the “meetings” tab, then “telephone meetings” tab) or (can call 1-888-425-2666 for a list of meetings)
+
+c.	“Our Seventh Tradition states that we are self-supporting through our own voluntary contributions.   If you would like to make a contribution to our group, you can send an electronic payment via Venmo or PayPal to our Treasurer at 516-427-4990 and type the word ‘Basket’ in the description.  When using PayPal and Venmo, please select the ‘Family and Friends option.  When using Venmo. go into ‘settings’ and set to ‘private’ for anonymity. If you would like to send the Treasurer a check, please text the same number, 516-427-4990, to receive the mailing address.  Contributions can also be made directly to the World Service Office by going online to Al-Anon.org or by calling 757-563-1600 to receive the mailing address for check contributions or to make a phone contribution. Please include our New Day 5am meeting ID number 30703632.” 
+
+
+d.	“Financial support is only part of our 7th tradition. There are forms of service, without which our groups could not exist. This meeting needs volunteers to take turns chairing our meeting. None of us recover alone, and none of us does service alone. Other members can help and encourage you. It is okay to not to do service perfectly. Service is an opportunity to grow – to attempt something we can actually achieve, and gain self-esteem by doing something of value in a nurturing environment, where we can be ourselves.”
+
+e.	“Sponsorship is a valuable tool in Al-Anon. Before selecting a sponsor, you may want to read Al-Anon conference approved literature on sponsorship.”
+
+f.	“Our Business Meeting will take place on the last day of the month beginning at 5 a.m. for up to one (1) hour, as needed.” (Optional Business Meeting Format is found at the end of this format, scroll down.).
+h
+g.	“Are there any Al-Anon related announcements?”  
+ 
+## (9)  CLOSING THE MEETING
+
+-	“Would someone like to read our suggested Al-Anon/Alateen closing for our family group this morning?” (if asked…the closing can be found in the Al-Anon/Alateen Service Manual on page 22, or in How Al-Anon Works on page 396 in the newer version or on page 380 in the older version”). 
+
+(Chairperson thanks the reader, and continues closing with our Declaration and the Serenity Prayer.)
+
+-	“Will all who care to, please press *1 to join me in the closing Declaration, followed by the Serenity Prayer.”   (if asked…can be found in the Al-Anon/Alateen Service Manual page 20 and 11, respectively.)
+
+
+|**Al-Anon Declaration:**|
+|:---:|
+|Let It Begin with Me|
+|When anyone, anywhere, reaches out for help,|
+|let the hand of Al-Anon and Alateen|
+|always be there, and -  Let it Begin with Me”|
+
+and
+
+|“ **The Serenity Prayer:**|
+|:---:|
+|God grant me the serenity|
+|To accept the things I cannot change|
+|Courage to change the things I can|
+|And wisdom to know the difference.”|
+
+## (10)  FINAL CLOSING STATEMENT
+
+“This meeting is now formally closed. Everyone is invited to stay on the line for after-meeting fellowship until our next meeting begins at 6:15 am.“ 
+
+(If there is a Business Meeting, you can begin to end the regular meeting at 5:40 am. Thanks :) )
+
+Group Conscience Format  (a 15 minute meeting: 5:45 – 6 am )
+
+At 5:45 am – If there is a Business/Group Conscience meeting:  
+
+# Al-Anon Business Meeting
+
+## (1) Opening our Business/Group Conscience Meeting  
+
+“Let’s open with a moment of silence followed with the Serenity Prayer. Please press *1 to unmute.” (Or, you can use the closing Serenity Prayer the group just said.)
+
+|“ **The Serenity Prayer:**|
+|:---:|
+|God grant me the serenity|
+|To accept the things I cannot change|
+|Courage to change the things I can|
+|And wisdom to know the difference.”|
+
+## (2)  Knowledge Based Decision Making / Informed Group Conscience 
+
+“All members are encouraged to share their knowledge, in order to help us make informed  group conscience decisions.”
+
+## (3)  Today’s business  
+
+“We are looking for volunteers to chair our 5 am meeting for next month:
+
+Who would like to chair on…
+
+- Sunday ____ 
+
+- Monday_____ 
+
+- Tuesday_____ 
+
+- Wednesday____
+
+- Thursday_____ 
+
+- Friday____
+
+- Saturday_____
+
+(Thank our volunteers :) )
+
+## (4)  Old business  
+
+“Do we have any old business to revisit from the last meeting?”  
+
+- (item)	
+
+- (item)
+
+## (5) New business  
+
+“Is there any new business that the group would like to discuss?”
+
+- (item)	
+
+- (item)	
+
+
+## (6) Our Family Group’s Decisions on Voting
+
+\* Our group votes before 6 am (because some regular members need to leave at 6 am). 
+
+\* We encourage a thorough discussion, hearing all views. When a member proposes a major group change, we announce for 1 month at “announcements” - before we vote at the next business meeting (to give our members extra time to think before our family group votes).  
+
+\* Our group uses a 2/3 vote. 
+
+\* Our group decided that “yes” and “no” votes are counted. (“abstain” votes are not.)
+
+(Abstentions, by definition, and those who remain silent are members who have decided not to vote. Attendees have shared many reasons for not voting: fell asleep, or think the issue is minor, or does not understand the proposal and therefore does not want to sway the vote in either direction, or not a member of this group and observing for educational purposes, and many other reasons, etc.)   
+
+When Voting:  (Secretary can say the following…)
+
+“All those in favor of this proposal for our family group?” “(name -yes1, etc…)(___\# in favor)”
+
+“Is anyone opposed to this proposal?”  “(name -nay1, name -nay2…etc.)(_____\# opposed)”
+
+“Would anyone like to abstain?”   “(name -abstain1, …etc)(____\# abstained)” 
+
+“This proposal is approved (or opposed) with ___ \# in favor, ___ \# opposed, and ___ \# of abstentions.” (need to count the “yes” and “no” votes, then decide if it passed by a 2/3rds vote.)
+
+### Sample Calculation: 
+
+(2/3rds = 0.6);  For example, if 6-yes, 4-no, calculation 6+4=10 total, then 6/10=0.6 (yes passes).
+
+If 5-yes, 5-no, calculation 5+5=10 total, then 5/10=0.5 (does not pass).
+
+Our group decided on a 2/3 vote because this is closer to unanimous than half/half. (Tradition 12)
+
+Calculation:  (Yes votes ÷ Total votes) > 0.6 (passes if greater than or equal to 0.6) (because 2/3 = 0.6)
+
+“Would anyone like to add anything before closing?”
+
+\* Our group uses the Al-Anon/Alateen Service Manual as a guide to answer group questions.
+
+\* Our group can also reach out to our World Service Office (WSO) or we can ask a Delegate.
+ 
+## (7)  Closing the Group Conscience (Business) Meeting: 
+
+“Will all who care to join me in closing with the Serenity Prayer, please press \*1 to unmute.”
+
+|“ **The Serenity Prayer:**|
+|:---:|
+|God grant me the serenity|
+|To accept the things I cannot change|
+|Courage to change the things I can|
+|And wisdom to know the difference.”|
+
+“This meeting is now formally closed. Thank you to everyone who participated. Our next meeting begins at 6:15 am.“
