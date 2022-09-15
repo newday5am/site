@@ -3,7 +3,7 @@ title: "Group Business Meeting Minutes"
 output: 
   html_document:
     toc: true # table of content true
-    toc_depth: 3  # upto three depths of headings (specified by #, # and ##)
+    toc_depth: 4  # upto three depths of headings (specified by #, # and ##)
     #number_sections: true  # if you want number sections at each table header
     theme: united  # many options for theme, this one is my favorite.
     highlight: tango  # specifies the syntax highlighting style
@@ -29,12 +29,224 @@ All members are encouraged to share their knowledge, in order to make informed G
 The minutes on this site are for informational purposes only.
 
 <center><h5>
-**Members' names are not included in this version of the minutes to maintain anonymity on thi s website.** 
+**Members' names are not included in this version of the minutes to maintain anonymity on this website.** 
 </center></h5>
 
 To request a copy of the full business meeting minutes, please send an email to <newday7minutes@gmail.com>. In your email please include the date of the minutes you are requesting in the subject field.
 
 # Minutes 2022
+
+### August 31, 2022
+
+Five AM New Day Al-Anon Family Group Meeting
+August 31, 2022, Business Meeting Minutes
+
+GR, in the absence of the Business Chair, opened the meeting at 5AM. 
+
+As per Knowledge Based Decision Making (KBDM), everyone is encouraged to participate.
+
+Chairpersons for the month of September are invited to volunteer. Sunday-MEMBER, Monday-MEMBER September 5 and Glenn, Tuesday-MEMBER, Wednesday-MEMBER, Thursday-MEMBER, Friday-MEMBER, Saturday-MEMBER.
+
+Secretary read business meeting minutes from July 31, 2022, business meeting.
+
+Treasurer’s Report for August 2022:
+
+<center>
+```{r, echo = FALSE }
+library( rmarkdown )
+library( kableExtra )
+#
+Amount <- 
+c(
+"$462.26",
+"$183.58", 
+"$  78.68", 
+"$  72.59", 
+"$105.00",
+"$232.41"
+)
+#
+Items <-  
+c(
+"Beginning balance, 7/31",
+"WSO Donation", 
+"Global Electronic Area Donation  ", 
+"Newcomer Packets", 
+"Donation (6)",                     
+"Ending balance 8/31"       
+)
+#
+tbl <- data.frame( Items, Amount )
+kable( tbl )
+#
+```
+</center>
+</br>
+
+Our group will contribute \$32.41 to be divided between the WSO (70\%) and the Area (30\%) this month.
+
+The price of literature ordered through the WSO online store has risen due to increased cost of materials, postage, and COVID-related deficits. Our group treasury is now fully functioning under the authority of our group conscience having spent many months of discussion and voting. The treasury supports our newcomers with conference-approved literature, contributes to our service arms, and provides our group with a prudent reserve.
+
+Group Representative Report: 
+
+Information about the WSO can be found on the website Al-Anon. Org. The very first Global Electronic Area (GEA) Assembly meeting was held July 31, 2022. WSO information can be read in three languages now: Spanish, French and English. Our GEA delegate related his topics of discussion from the World Service Conference. Among these are recommendations for patience, time, work, and service with a focus on gratitude. The average age of Al-Anon members is 62. Discussion at the assembly meeting included how to attract younger members into service. Our alternate GR also attended the Assembly meeting and offered her perspective that gratitude was the focus. Unfortunately, not enough time was allotted for member questions. 
+
+Our GR relayed three questions from our Area Chair who asked us to consider:
+
+1.	What are your top 3 priorities for the area?
+2.	How should districts be organized?
+3.	What service positions* are you willing and able to contribute?
+
+*Information about service positions can be found under Links of Service in our Service Manual. 
+
+To date no responses from our group have been received. The GR explained that her research consisted of reading responses on the GR website from other groups. Some of her own thoughts were mirrored.
+
+1.	Electing an alternate delegate to the Area.
+2.	Create an area website to make Area information and activities available to all members.
+3.	As we continue form our area, reach out to other areas to help us understand what can and cannot work for our electronic area. 
+
+Thoughts on the formation of districts within our area include categorizing groups according to time zones and electronic platforms such as Zoom and telephone. There are currently 16 platforms and 800 registered groups in our area.
+
+Our Chair and GR raised as an urgent priority an issue about voting, as this substantially affects how we run our business meetings. The Chair made a motion to discuss and vote on the way we format our votes. The need for consistency was stressed. The motion is to always take a yes or no vote of members present at the business meeting.  We would no longer take a vote by asking whether anyone is opposed. This practice has been contested at every business meeting for the past several months. Once established, the motion for a yes or no vote will save our meeting precious time and avoid needless controversy.   The motion was tabled for the next business meeting. 
+
+There was a call for a discussion about “dominance” in terms of the daily readings as well as possible wording for our meeting format.
+
+At our September 2022 Business Meeting:
+
+1.	Our first order of old business as a priority will be to ask for a second to the motion for a yes/no vote format, discuss the motion, vote on the yes/no motion.
+2.	Our second order of old business will be to continue to discuss the calling of a group conscience, upon which there will be a motion, possible further discussion, and vote on this matter.
+3.	Our third order of old business is to discuss use of any left-over time from our business meeting.
+4.	Our fourth order of old business is a motion to discuss dominance of readers and possible wording for our meeting format.
+
+The business meeting ended at 6:02am with the Serenity prayer. 
+
+Respectfully submitted, SECRETARY.
+
+
+### July 31, 2022
+
+Five AM New Day Al-Anon Family Group Meeting.
+July 31, 2022 Business Meeting Minutes.
+
+Business chair opened the meeting at 5AM. Meeting was opened with a moment of silence followed by the Serenity Prayer. 
+
+Knowledge Based Decision Making (KBDM) will guide us through today’s format.
+
+Today’s business began with chairpersons for the month of August. Sunday-MEMBER, Monday-MEMBER, Tuesday- MEMBER, Wednesday-MEMBER, Thursday-MEMBER, Friday-MEMBER, Saturday-open.
+
+Old business-Secretary read minutes from June 30, 2022 business meeting.
+
+Treasurer report- Ending balance in June $427.26. Receipts in July, $35.00. Current balance of $462.26. 
+
+GR report- A Global Electronic Assembly Meeting will be held today. Our GR will attend and bring information back to our group.
+
+Business chair read literature on Knowledge Based Decision Making vs Roberts Rules. Al-Anon currently uses the KBDM format.
+
+**First order of old business:** Treasurer would like to bring to closure the $200 reserve amount. At the last business meeting, a motion was made and seconded for the $200 reserve amount. Now we need discussion and vote. Discussion was held and the vote was 18-yes, zero-no and zero-abstain. Treasurer discussed the percentage of group contributions in excess of the prudent reserve to be allocated to our service arms, the World Service Office (WSO) and the Global Electronic Area (GEA). The Service Manual suggests that our group contributions be in proportion to the services provided. The treasurer recommends at this time 70% to WSO and 30% to GEA, on a monthly basis. These percentages may change as our GEA develops. A motion was made, seconded, and voted: yes-13, no-zero, abstain-zero. The WSO announced that expenses per group for services provided are $283/group, also known as the annual equalized expense. Our goal is to contribute back to the WSO at least this amount to be self-supporting. Now that the group treasury is fully formed, our contributions support our Newcomers, WSO and Area. Our treasurer stated that contributions have been received at the rate of 2-3 per month since April. It is hoped that with the knowledge of where our group funds support, our members will feel comfortable to contribute directly to our family group.
+
+**Second order of old business:** Literature chairperson discussion. This is not an anonymous position. Literature chair needs to supply their address and phone number. Also, literature chair needs to protect anonymity of person requesting packets. Our GR gave an overview of the position. Time commitment, 3 months, 6 months, a year was discussed. Also, rotation of service was discussed. Ellen volunteered for this position. and will try it for 6 months. The vote for Ellen was 10-yes, zero-no and zero-abstain.
+
+**Third order of old business:** Use of any left-over time from our business meeting. Suggestions are 1. Discussion of tradition/concept of the month, 2. Daily readers, 3. Shares. The amount of time left over can help determine the activity. We can always rotate the activity. This item was tabled for further discussion at the next Business Meeting.
+
+**Fourth order of old business:** The GR raised the question, when a member calls for a group conscience (that is, an additional business meeting), how do we address this need? The proposal is that a group conscience meeting request, due to the urgency and gravity of such a request, cannot be tabled or postponed but must be subject to an immediate vote for an additional meeting and its date and time.   Discussion at the next business meeting should include the timing of the additional meeting (for example, 15 minutes before the close of the designated meeting). It is suggested that the additional meeting will take place after seven (7) days of announcing at daily meetings. An example of an exception to this rule would be an impending deadline within the seven-day window to meet a request from the WSO or GEA. This issue was tabled due to time constraints. 
+
+At the end of the meeting the business chair read the definition of Knowledge Based Decision Making (KBDM). 
+
+At our August 2022 Business Meeting:
+
+1.	Our first order of old business will be to continue to discuss the calling of a group conscience, upon which there will be a motion, possible further discussion, and vote on this matter.
+
+2.	Our second order of old business is to discuss use of any left-over time from our business meeting.
+
+3.	Our third order of old business is to discuss our group's decision making processs which invites all voices to be heard. 
+
+The Meeting closed with the Serenity Prayer at 6:04AM.
+
+Respectfully submitted, SECRETARY
+
+#### Addendum, August 9, 2022
+
+The Area Chair has asked us to consider these three questions:
+
+1. What are your the top 3 priorities for the area?
+
+2. How should districts be organized?
+
+3. What service positions are you willing and able to contribute? 
+
+Please read the **Structure of the Al-Anon/Alateen Fellowship  (Links of Service)** section in our _**Al-Anon / Ala-Teen Service Manual**_ , pp. 63-67, for information about service positions.
+
+Please send any responses to these questions to <newday7minutes@gmail.com>. Thank you!
+
+Respectfully submitted, Group Representative
+
+
+### June 30, 2022
+
+Five AM New Day Al-Anon Family Group Meeting. 
+June 30, 2022 Business Meeting Minutes
+
+Regular chairperson for Thursdays opened the meeting at 5AM. We at this time did not have a Business Chair.
+
+First order of business is to establish volunteers to chair for the month of July. Sunday-Member, Monday- Member, Tuesday-
+Member, Wednesday-Member, Thursday- Member, Friday-Member, Saturday- open.
+
+Next, Secretary read minutes from May 31 and June 2. GR reports that new wording is needed in our format. Wording to include Secretary, Treasurer and GR reports. This recommendation was unopposed. 
+
+Question about do we use Robert’s Rules vs. Knowledge Based Decision Making (KBDM). We will discuss as new business next time.
+
+Need for a Business Chairperson. Member volunteered for three months at which time the Member will reassess the time commitment. The new Business Chairperson was approved by a vote of 12 yes, 1 no, 2 abstain.
+
+Next, Treasurer Report. Current balance is \$427.26. This includes an additional \$85 collected in June. No expenses thus far. There is need to approve spending. Treasurer requests pre-approval for the release of funds our one expense, Newcomer packets. These packets cost \$3.11 each and we order 20 at a time totaling \$62.22 per order. Motion made and seconded. Vote to allow Treasurer to release funds for newcomer packets: 13-yes, 2- no, 2-abstain.
+
+The group will need a Literature Chair to administer Newcomer packets. Discussion on position of Literature Chair will follow the formation of the Treasury on the agenda at our next business meeting.
+
+Motion to extend meeting to 6:10 was seconded and approved by a vote of 8-yes, 2-no, 1-abstain.
+
+Treasurer motioned to approve a prudent reserve of \$200.00 for our group. The reserve funds sufficient for two (2) rounds of newcomer packets (40 packets) for approximately \$125.00 with the remaining \$75.00 for unknown future expenses. The reserve amount may be adjusted in the future to address changing needs. Motion was seconded, discussion ensued. Motion was tabled due to time constraints and will be the first order of business at the next business meeting with continued discussion and a vote.
+Here are the items under old business for the next business meeting.
+
+- The prudent reserve motion that was tabled.
+
+- The percentages of funds over and above the prudent reserve for allocation to WSO and our Global Electronic Area (GEA). 
+
+- The frequency of allocating contributions to the WSO and GEA, for example, monthly or quarterly, etc.
+
+- Discussion of Literature Chair position.
+
+- Discussion of the use of time remaining if our business meeting ends early.
+
+- How do we pass a motion on the timely request for a group conscience meeting?
+
+We have new business to discuss.
+
+- What are Robert’s Rules and Knowledge Based Decision Making (KBDM)?
+
+- Do we use Robert’s Rules or Knowledge Based Decision Making (KBDM)?
+
+Meeting closed at 6:10AM.
+
+Respectfully, Secretary.
+
+
+### June 2, 2022
+
+Five AM New Day Al-Anon Family Group Meeting.
+June 2,2022, Business Meeting Minutes.
+
+Meeting opened at 5:45AM. Purpose today is the treasury report and discussion of allocation of funds. GR gave synopsis of May 31, 2022, Business meeting minutes. June Business Meeting at the end of the month to begin at 5AM. 
+
+Motion to extend this meeting until 6:10AM. Seconded. Vote yes-10, no-1, abstention-zero. Motion to allow treasurer to give report. Seconded. Vote yes-9, no-1, abstention- zero. 
+
+Treasurer’s report: \$342.26 as of today with \$177.26 received in April and \$165 received in May.  No expenses. Treasurer brought up 4 points that need to be discussed at next Business Meeting.
+1.	Incorporation of Treasurer’s Report into Business Meeting format.
+2.	Pre-authorization of the group’s only current operating expense: Newcomer packets.
+3.	Determination of prudent reserve amount.
+4.	Allocation of excess over prudent reserve to WSO and area contributions and the frequency of such contributions.
+
+The GR requested that our group review the procedure at which we pass a motion for GC. 
+
+Respectfully, Secretary
 
 ### May 31, 2022
 
@@ -52,6 +264,8 @@ Secretary then read minutes from April 30, 2022. Treasurer then asked for the op
 The Business Chairperson announced that any group member could request a  group conscience meeting at any time. GR made a motion to have a business meeting on Thursday, June 2, and volunteered to chair as we do not have a business chair at this time.  Motion was seconded and was unopposed. Business Chair then announced that there will be a Group Conscience meeting on Thursday. Purpose of this meeting is to give the Treasurer the opportunity to give his report and discuss allocation of funds.  
 
 A motion was made to extend our current meeting until 6:10. Motion was seconded and voted 7 yes – 0 no – 0 abstained.  Meeting was closed at 6:10.
+
+Members requested discussion about how to continue the meeting when the full hour of the Business Meeting is not needed.
 
 Respectfully submitted, Secretary.
 
